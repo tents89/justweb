@@ -73,7 +73,7 @@ body {
     padding: 2rem;
     max-width: 1200px;
     margin: 0 auto;
-    justify-itmes: center
+    justify-content: center;
 }
 
 /* --- 單一專案卡片設計 --- */
