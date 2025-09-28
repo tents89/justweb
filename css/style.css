@@ -73,6 +73,7 @@ body {
     padding: 2rem;
     max-width: 1200px;
     margin: 0 auto;
+    justify-itmes: center
 }
 
 /* --- 單一專案卡片設計 --- */
@@ -247,3 +248,4 @@ footer {
         gap: 1rem;
     }
 }
+
