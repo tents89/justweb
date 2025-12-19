@@ -221,15 +221,32 @@ body {
    margin-right: 0.6rem;
 }
 
-/* --- 贊助按鈕中的 Logo 圖片樣式 --- */
-.button .btn-logo {
-    height: 1em; /* 讓圖片高度與旁邊的文字差不多 */
-    vertical-align: -0.1em; /* 稍微向下對齊，視覺上更置中 */
-    margin-right: 0.6rem; /* 與 Font Awesome 圖示的間距設定保持一致 */
+/* support */
+.button-coffee {
+    display: inline-flex;
+    align-items: center;
+    background-color: #000000; 
+    color: #ffffff;            
+    padding: 10px 20px;        
+    border-radius: 8px;        
+    text-decoration: none;     
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    transition: background-color 0.3s ease; 
+}
+
+.button-coffee i {
+    margin-right: 10px;       
+    font-size: 1.1em;
+}
+
+.button-coffee:hover {
+    background-color: #333333;
+    color: #ffffff;
 }
 
 
-/* --- 頁尾 --- */
+/* --- page_end --- */
 footer {
     text-align: center;
     padding: 2rem 1rem;
@@ -238,7 +255,7 @@ footer {
     border-top: 1px solid var(--border-color);
 }
 
-/* --- 手機版響應式設計 --- */
+/* --- RWD --- */
 @media (max-width: 768px) {
     .hero h1 {
         font-size: 2rem;
@@ -248,4 +265,5 @@ footer {
         gap: 1rem;
     }
 }
+
 
